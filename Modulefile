@@ -1,0 +1,13 @@
+name 'oeudtinsanmie-uima'
+version '0.1.0'
+summary 'Installs UIMA and UIMA-AS from source.  Uses mjanser-eclipse to install eclipse and eclipse plugins for UIMA'
+author 'Douglas McClusky'
+license 'Apache License Version 2.0'
+project_page 'https://github.com/oeudtinsanmie/oeudtinsanmie-uima'
+source 'https://github.com/oeudtinsanmie/oeudtinsanmie-uima.git'
+
+dependency 'puppetlabs/stdlib', '>= 4.1.0'
+dependency 'mjanser/eclipse', '>= 0.2.0'
+dependency 'gini/archive', '>=0.2.0'
+dependency 'puppetlabs/vcsrepo', '>=1.0.1'
+dependency 'nvpuppet/systemenv', '>=1.0.1'

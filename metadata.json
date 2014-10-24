@@ -1,0 +1,34 @@
+{
+  "author": "Douglas McClusky",
+  "dependencies": [
+  	{
+      	"version_requirement": ">= 4.1.0",
+      	"name": "puppetlabs-stdlib"
+    },
+    {
+		"version_requirement": ">= 0.2.0",
+	  	"name": "mjanser-eclipse"
+    },
+    {
+	    "name": "gini-archive",
+	    "version_requirement": ">=0.2.0"
+    },
+    {
+	    "name": "puppetlabs-vcsrepo",
+	    "version_requirement": ">=1.0.1"
+    },
+    {
+    	"name": "nvpuppet-systemenv",
+    	"version_requirement": ">=1.0.1"
+    }
+  ],
+  "license": "Apache License, Version 2.0",
+  "name": "oeudtinsanmie-uima",
+  "operatingsystem_support": [],
+  "project_page": "https://github.com/oeudtinsanmie/oeudtinsanmie-uima",
+  "requirements": [],
+  "source": "https://github.com/oeudtinsanmie/oeudtinsanmie-uima.git",
+  "summary": "Installs UIMA and UIMA-AS from source.  Uses mjanser-eclipse to install eclipse and eclipse plugins for UIMA",
+  "tags": [],
+  "version": "0.1.0"
+}
