@@ -31,7 +31,7 @@ class uima (
     $ruta_ver = $ruta_version
   }
 
-  if $eclipsenv != undef {
+  if $eclipsenv != undef and !defined(Class['eclipse']) {
 	  package { "eclipse":
 	    ensure => absent,
 	  }
